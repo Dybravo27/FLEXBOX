@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navegador{
+  width: 100px;
+  background-color: black;
+  display: flex;
+}
+.img_css-stricks{
+  width: 100px;
+  height: 100px;
+}
