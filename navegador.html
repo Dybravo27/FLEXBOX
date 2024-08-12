@@ -1,39 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Navegador flexbox</title>
   <link rel="stylesheet" href="style2.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-  <header>
-    <nav class="navegador">
-      <ul>
-        <img src="logo.png" alt="img_css-stricks">
-        <li>
-          <a class="">Articulos</a>
-        </li>
-        <li>
-          <a href="">Notas</a>
-        </li>
-        <li>
-          <a href="">link</a>
-        </li>
-        <li>
-          <a href="">Guides</a>
-        </li>
-        <li>
-          <a href="">Almanac</a>
-        </li>
-        <li>
-          <a href="">Shuffle</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <header class="encabezado">
+    <img src="logo.png" alt="encabezado__logo">
+    <div class="encabezado__contenido">
+      <nav class="encabezado__navegacion">
+        <ul class="encabezado__navegacion-lista">
+          <li class="encabezado__navegacion-opcion">
+            <a href="#" class="encabezado__navegacion-enlace encabezado__navegacion-enlace--texto-naranja-fondotransparente">ARTICLES</a>
+          </li>
+          <li class="encabezado__navegacion-opcion">
+            <a href="#" class="encabezado__navegacion-enlace encabezado__navegacion-enlace--texto-naranja-fondotransparente">NOTES</a>
+          </li>
+          <li class="encabezado__navegacion-opcion">
+            <a href="#" class="encabezado__navegacion-enlace encabezado__navegacion-enlace--texto-naranja-fondotransparente">LINKS</a>
+          </li>
+          <li class="encabezado__navegacion-opcion">
+            <a href="#" class="encabezado__navegacion-enlace encabezado__navegacion-enlace--texto-naranja-fondotransparente">GUIDES</a>
+          </li>
+          <li class="encabezado__navegacion-opcion">
+            <a href="#" class="encabezado__navegacion-enlace encabezado__navegacion-enlace--texto-naranja-fondotransparente">ALMANAC</a>
+          </li>
+          <li class="encabezado__navegacion-opcion">
+            <a href="#" class="encabezado__navegacion-enlace encabezado__navegacion-enlace--texto-naranja-fondotransparente">SHUFFLE</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="encabezado__busqueda-boton">
+        <i class='bx bx-search'></i>
+      </button>
+    </header>
+    </div>
+    
 </body>
 
 </html>
