@@ -61,7 +61,7 @@ body{
 
 .encabezado__navegacion-enlace:hover{
   color: #ff6900;
-  background-color: rgb(238, 238, 238);
+  background-color:#292929;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px ;
 }
