@@ -12,7 +12,7 @@ body{
   max-width: 1200px;
   height: 100vh;
   margin: 0 auto;
-  background-color: black;
+  background-color: gray;
   border: 1px solid #c2c2c2;
   display: flex;
   /* display: inline-flex; */
@@ -21,7 +21,7 @@ body{
   /* flex-direction: column; */
   /* flex-direction: column-reverse; */
   /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   /* flex-flow: column wrap; */
   justify-content:flex-start ;
   /* justify-content: flex-end; */
@@ -34,15 +34,46 @@ body{
   /* align-items: flex-end; */
   /* align-items: center; */
   /* align-items: stretch; */
+  align-content: flex-start;
+  /* align-content: flex-end;
+  align-content: space-between;
+  align-content: space-around;
+  align-content: space-evenly; */
 }
-/* .cuadrado{
+.cuadrado{
   width: 200px;
   height: 200px;
   background-color: crimson;
   text-align: center;
   border: solid 1px #fff;
-} */
-.contenedor--color_blanco{
+}
+.contenedor .cuadrado:nth-child(1){
+  background-color: steelblue;
+  order: -1;
+}
+.contenedor .cuadrado:nth-child(2){
+  background-color: steelblue;
+  order: -1;
+}
+.contenedor .cuadrado:nth-child(3){
+  background-color: steelblue;
+  order: -1;
+}
+.contenedor .cuadrado:nth-child(4){
+  background-color: steelblue;
+  order: -1;
+}
+@media (max-width: 800px){
+  .contenedor{
+    background-color: #222;
+    flex-direction: column;
+  }
+  .cuadrado:nth-child(3){
+  background-color: steelblue;
+  order: -1;
+}
+}
+/* .contenedor--color_blanco{
   align-items: center;
 }
 .cuadrado--color_blanco{
@@ -52,4 +83,4 @@ body{
   display: flex;
   background-color: #fff;
   justify-content: center;
-}
+} */
